@@ -9,16 +9,16 @@ body {
 }
 
 /* Header Styles */
-header {
+/* header {
   background: #333;
   color: #fff;
   padding: 20px 0;
   text-align: center;
   border-bottom: 2px solid #ff6f61;
-}
+} */
 header img{
   height:auto;
-  width: 50px;
+  width: 100px;
 }
 
 header h1 {
