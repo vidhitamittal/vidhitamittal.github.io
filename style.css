@@ -44,9 +44,9 @@ header ul li a {
   font-size: 1.2em;
 }
 
-header ul li a:hover {
-  color: #ff6f61;
-}
+/* header ul li a:hover { */
+  /* color: #ff6f61; */
+/* } */
 
 /* Container Styles */
 /* #container {
