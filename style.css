@@ -44,12 +44,12 @@ header ul li a {
   font-size: 1.2em;
 }
 
-/* header ul li a:hover { */
-  /* color: #ff6f61; */
-/* } */
+header ul li a:hover { 
+  color: #ff6f61;
+}
 
 /* Container Styles */
-/* #container {
+#container {
   max-width: 1100px;
   margin: auto;
   overflow: hidden;
@@ -57,7 +57,7 @@ header ul li a {
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-} */ */
+} 
 
 /* Content Styles */
 #content h2 {
