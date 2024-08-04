@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
   <head>
@@ -44,21 +43,21 @@
       <div class="inner">
         <div id="content"> 
           
-          <div id="home">
+          <div id="home" class="content-region">
             <h2>Home</h2>
             <p>
               This is a simple website template published with Github Pages. <a href="https://vidhitamittal.github.io/#home">Fork this repository</a> to create your own site!
             </p>
           </div>
           
-          <div id="about" class="content-region hide">
+          <div id="about" class="content-region">
             <h2>About</h2>
             <p>
               Sophomore at University of Massachusetts Amherst pursuing BS in Computer Sciences
             </p>
           </div>
           
-          <div id="contact" class="content-region hide">
+          <div id="contact" class="content-region">
             <h2>Contact</h2>
             <p>
               email: vidhitamittal@gmail.com
@@ -74,7 +73,29 @@
     </footer> -->
     
     <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        // Hide all sections
+        $('.content-region').hide();
+        
+        // Show the home section by default
+        $('#home').show();
+
+        // Add click event to menu items
+        $('.main-menu a').on('click', function(e) {
+          e.preventDefault();
+          
+          // Get the target section's id
+          var target = $(this).attr('href').substring(1);
+          
+          // Hide all sections
+          $('.content-region').hide();
+          
+          // Show the target section
+          $('#' + target).show();
+        });
+      });
+    </script>
     
   </body>
 </html>
