@@ -16,6 +16,10 @@ header {
   text-align: center;
   border-bottom: 2px solid #ff6f61;
 }
+header img{
+  height:auto;
+  width:200px;
+}
 
 header h1 {
   margin: 0;
