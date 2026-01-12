@@ -100,6 +100,62 @@ nav a:hover {
     flex: 1;
 }
 
+/* --- ADD THIS TO FIX THE BUTTONS --- */
+
+.hero {
+    text-align: center;
+    padding: 6rem 1rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #64748b;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background: var(--primary);
+    color: white !important; /* Forces white text */
+    padding: 0.8rem 1.8rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 2px solid var(--primary);
+}
+
+.btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+    color: white !important;
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--primary) !important;
+}
+
+.btn-outline:hover {
+    background: var(--accent);
+    color: var(--primary) !important;
+}
+
+/* --- END OF BUTTON FIX --- */
 
 @media (max-width: 768px) {
     .hero-container {
