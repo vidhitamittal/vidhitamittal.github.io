@@ -22,11 +22,19 @@
 </nav>
 
 <header class="hero">
-    <h1>Hi, I'm <span class="highlight">Vidhita Mittal</span></h1>
-    <p>Computer Science @ UMass Amherst | Full-Stack Developer | AI </p>
-    <div class="hero-btns">
-        <a href="mailto:vidhitamittal@gmail.com" class="btn">Get In Touch</a>
-        <a href="https://linkedin.com/in/vidhitamittal" class="btn btn-outline" target="_blank">LinkedIn</a>
+    <div class="container hero-container">
+        <div class="hero-image">
+            <img src="image.jpg" alt="Vidhita Mittal">
+        </div>
+        
+        <div class="hero-text">
+            [cite_start]<h1>Hi, I'm <span class="highlight">Vidhita Mittal</span> [cite: 1]</h1>
+            <p>Computer Science @ UMass Amherst | Full-Stack Developer | [cite_start]AI & Data Science [cite: 3, 4]</p>
+            <div class="hero-btns">
+                [cite_start]<a href="mailto:vidhitamittal@gmail.com" class="btn">Get In Touch [cite: 2]</a>
+                [cite_start]<a href="https://linkedin.com/in/vidhitamittal" class="btn btn-outline" target="_blank">LinkedIn [cite: 2]</a>
+            </div>
+        </div>
     </div>
 </header>
 
@@ -34,16 +42,6 @@
         <section id="projects">
     <h2 class="section-title">Featured Projects</h2>
     <div class="project-grid">
-        <div class="project-card">
-            <div class="card-content">
-                <h3>Synchro</h3>
-                <p>Full-stack academic aggregator for Canvas/Gradescope with secure auth and MongoDB.</p>
-                <div class="tags">
-                    <span>React</span> <span>Express</span> <span>MongoDB</span> <span>Node.js</span>
-                </div>
-                <a href="https://github.com/vidhitamittal/Synchro" class="project-link">View Repo →</a>
-            </div>
-        </div>
 
         <div class="project-card">
             <div class="card-content">
@@ -58,7 +56,18 @@
 
         <div class="project-card">
             <div class="card-content">
-                <h3>Content Detector</h3>
+                <h3>Synchro</h3>
+                <p>Full-stack academic aggregator for Canvas/Gradescope with secure auth and MongoDB.</p>
+                <div class="tags">
+                    <span>React</span> <span>Python</span> <span>MongoDB</span> <span>Node.js</span>
+                </div>
+                <a href="https://github.com/vidhitamittal/Synchro" class="project-link">View Repo →</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="card-content">
+                <h3>Third-party Content Detector</h3>
                 <p>Achieved 99.7% orientation accuracy detecting third-party logos in 1K+ videos.</p>
                 <div class="tags">
                     <span>OpenCV</span> <span>Python</span> <span>Template Matching</span>
